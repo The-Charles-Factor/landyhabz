@@ -100,14 +100,14 @@ export default function Home() {
               </button>
             ))}
           </div>
-          {/* again */}
+          
           {/* Friendship note */}
           <div className="mt-8 pt-4 border-t border-gray-100 text-center">
             <p className="text-sm text-gray-500 flex items-center justify-center">
               <svg className="w-4 h-4 text-pink-500 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M14.828 14.828a4 4 0 01-5.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
               </svg>
-              always cheering for you 💫
+              From your friend who&apos;s always cheering for you 💫
             </p>
           </div>
         </div>
@@ -159,7 +159,7 @@ export default function Home() {
                score >= quizData.length/2 ? "Great Job! 🌟" : "Keep Learning! 💪"}
             </h2>
             <p className="text-gray-600">
-              {score === quizData.length ? "You're a React pro!" : 
+              {score === quizData.length ? "You&apos;re a React pro!" : 
                "Every attempt makes you better!"}
             </p>
           </div>
@@ -197,21 +197,21 @@ export default function Home() {
           {/* Personal message */}
           <div className="bg-gradient-to-r from-purple-100 to-pink-100 p-6 rounded-2xl mb-8">
             <p className="text-gray-700 mb-4 italic">
-              "Here's to building our dreams together — future successful brands,
-              freelance freedom, and all the adventures ahead."
+              &quot;Here&apos;s to building our dreams together — future successful brands,
+              freelance freedom, and all the adventures ahead.&quot;
             </p>
 
             <div className="bg-yellow-50 border-l-4 border-yellow-400 p-4 mb-4 rounded">
               <div className="flex items-center">
                 <span className="text-yellow-500 text-2xl mr-3">🎱</span>
                 <p className="text-yellow-700 font-medium">
-                  Though fair warning: I'll still beat you at pool when time comes! 😄
+                  Though fair warning: I&apos;ll still beat you at pool when time comes! 😄
                 </p>
               </div>
             </div>
 
             <p className="text-gray-600">
-              Cheers to this journey —{" "}
+              Cheers to our journey —{" "}
               <strong className="text-purple-700">Charles Njoroge</strong>
             </p>
           </div>
@@ -227,12 +227,10 @@ export default function Home() {
             <svg className="w-5 h-5 text-white mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"></path>
             </svg>
-           Best ! 
+            Try Again
           </button>
         </div>
       )}
     </div>
   );
 }
-
-// cheering
